@@ -6,7 +6,7 @@ export default function QueryProcessor(query: string): string {
       "writer in the English language and the world's pre-eminent dramatist."
     );
   }
-  else if (query.toLowerCase().includes("What is your AndrewID?")) {
+  else if (query.toLowerCase().includes("andrewid")) {
     return (
       "my AndrewID is lnalewaj"
     );
